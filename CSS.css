@@ -1,0 +1,90 @@
+#body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 84, 121, 0.8785249457700651) 0%,
+    rgba(0, 212, 255, 1) 47%
+  );
+}
+#div {
+  width: 450px;
+  margin: 10vh auto 0 auto;
+  border: 2px solid;
+  padding: 30px;
+  box-shadow: 0 0 10px red;
+  border-radius: 5px;
+}
+hr {
+  color: black;
+  font-weight: bold;
+}
+li {
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10%;
+}
+#title {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0 0 5px red;
+}
+li button {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: red;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: snow;
+}
+#div input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#div input {
+  width: 100%;
+  font-size: 30px;
+  border-radius: 5px;
+  border: dotted;
+  box-shadow: 0 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#div button {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 49.5%;
+}
+#clr {
+  padding: 10px;
+  font-size: 20px;
+  background-color: red;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: snow;
+}
+#Add {
+  padding: 10px;
+  font-size: 20px;
+  background-color: green;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: snow;
+}
+#Add:hover {
+  box-shadow: 0 0 10px green;
+  transition: 0.3s;
+}
+#clr:hover {
+  box-shadow: 0 0 10px red;
+  transition: 0.3s;
+}
+li button:hover {
+  box-shadow: 0 0 10px red;
+  transition: 0.3s;
+}
